@@ -14,10 +14,15 @@ import "@firebase/auth"
 import firebase from "@firebase/app"
 
 //pages
-import Home from './Pages/Home';
-import Signin from './Pages/Signin';
-import Signup from './Pages/Signup';
-import PageNotFound from './Pages/PageNotFound';
+// import Home from './Pages/Home';
+// import Signin from './Pages/Signin';
+// import Signup from './Pages/Signup';
+// import PageNotFound from './Pages/PageNotFound';
+
+// converted above lines into one that reduce the redundancy of the code.
+// object destructuring
+
+import {Home,PageNotFound,Signin,Signup} from "./Pages";
 
 //user context
 import {UserContext} from './Context/UserContext';
